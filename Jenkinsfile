@@ -17,7 +17,7 @@ if (env.BUILD_URL == "") {
         print 'Empty World'
     } 
 } else  {
-    stage('EMPTY') {
-        print 'Empty World'
+    stage('Not Empty') {
+        print 'Else World'
     } 
 }
