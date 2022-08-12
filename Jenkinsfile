@@ -12,4 +12,8 @@ node {
     }
 }
 
-if (env.BRANCH_NAME == 'master') {
+if (env.BUILD_URL == "") {
+    stage('EMPTY') {
+        print ''
+    }
+}
