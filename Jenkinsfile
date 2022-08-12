@@ -11,3 +11,5 @@ node {
         print 'Hello World'
     }
 }
+
+if (env.BRANCH_NAME == 'master') {
