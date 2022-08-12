@@ -14,6 +14,10 @@ node {
 
 if (env.BUILD_URL == "") {
     stage('EMPTY') {
-        print ''
-    }
+        print 'Empty World'
+    } 
+} else  {
+    stage('EMPTY') {
+        print 'Empty World'
+    } 
 }
