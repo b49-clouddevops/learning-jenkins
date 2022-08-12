@@ -12,7 +12,7 @@ node {
     }
 }
 
-if (env.BUILD_URL == "") {
+if (env.BUILD_URL != "") {
     stage('EMPTY') {
         print 'Empty World'
     } 
